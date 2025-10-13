@@ -7,7 +7,7 @@ pageTurnBtn.forEach((el, index) => {
 
         const pageTurnId = el.getAttribute('data-page');
         const pageTurn = document.getElementById(pageTurnId);
-                                            
+                                                 
         if(pageTurn.classList.contains('turn')){
             pageTurn.classList.remove('turn');
 
@@ -73,26 +73,6 @@ backProfileBtn.onclick = () => {
 
     })
 }
-
-
-// opening animation
-const coverRight = document.querySelector('.cover.cover-right');
-const pageLeft = document.querySelector('.book-page.page-left');
-
-
-// open animation (cover right animation)
-setTimeout(() => {
-    coverRight.classList.add('turn');
-}, 2100);
-
-setTimeout(() => {
-    coverRight.style.zIndex = -1;
-}, 2800);
-
-
-pages.forEach((_, index) => {
-    setTimeout(() => {
-        reverseIndex();
 
         pages[pageNumber].classList.remove('turn');
 
