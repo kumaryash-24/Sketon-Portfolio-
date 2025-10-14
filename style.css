@@ -20,15 +20,7 @@
     --box-shadow: 0 0 0.8rem rgba(0,0,0,0.2);
 
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; 
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    overflow: hidden;
-    font-family: "Nunito", sans-serif;
+  
 }
 .wrapper{
     position: relative;
