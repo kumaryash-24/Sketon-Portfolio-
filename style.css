@@ -6,7 +6,7 @@
     text-decoration: none;
     box-sizing: border-box;
     border: none;
-    outline: none;
+    outline: none; 
 }         
 :root {   
     --bg-color: #151f28;
