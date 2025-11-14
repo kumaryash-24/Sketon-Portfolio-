@@ -2,7 +2,7 @@
 
 const pageTurnBtn = document.querySelectorAll('.nextprev-btn');
 
-pageTurnBtn.forEach((el, index) => {
+pageTurnBtn.forEach((el, index) => {  
     el.onclick = () => {
   
         const pageTurnId = el.getAttribute('data-page');
