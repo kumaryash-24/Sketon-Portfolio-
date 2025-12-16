@@ -6,7 +6,7 @@ pageTurnBtn.forEach((el, index) => {
     el.onclick = () => {  
      
         const pageTurnId = el.getAttribute('data-page');        
-        const pageTurn = document.getElementById(pageTurnId);
+        const pageTurn = document.getElementById(pageTurnId);   
                                                  
         if(pageTurn.classList.contains('turn')){
             pageTurn.classList.remove('turn');
