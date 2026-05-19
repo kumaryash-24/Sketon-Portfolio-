@@ -4,7 +4,7 @@
 
 <img src="https://media.giphy.com/media/xUPGcgiYm57AjVNtni/giphy.gif" width="400" alt="Skeleton Reading">
 
-### *A Hauntingly Beautiful Digital Library Experience*
+### *A Hauntingly Beautiful Digital Library Experience*    
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=vercel)](https://your-demo-link.com)
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
